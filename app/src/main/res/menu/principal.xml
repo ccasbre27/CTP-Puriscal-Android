@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    
+    <item 
+        android:id="@+id/llamada"
+        android:orderInCategory="50"
+        android:showAsAction="never"
+        android:title="Llamar al Centro Educativo" 
+        android:icon="@drawable/llamarmenu"
+       
+        
+        />
+    
+    <item 
+        android:id="@+id/configurar"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Configuraciones" 
+        android:icon="@drawable/configuracionesmenu"
+        
+        />
+
+</menu>

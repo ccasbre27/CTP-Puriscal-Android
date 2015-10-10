@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/crema"
+    android:padding="@dimen/distancia">
+    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >
+	    
+	    <TextView
+
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+	    
+	    <TextView 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="@string/infoconfiguracion"
+            android:textSize="20dp"
+			android:textColor="@color/turquesaoscuro" />
+	    
+		<TextView 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+		
+	    <SeekBar
+	        android:id="@+id/barrafuente"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" />
+	    
+	   	<TextView 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+		
+		<TextView 
+		    android:id="@+id/muestratitulo" 
+		    style="@style/Titulo" 	
+			android:text="@string/ejemplotitulo" />
+		
+		<TextView 
+		    android:id="@+id/muestrasubtitulo" 
+		    style="@style/Subtitulo" 	
+			android:text="@string/ejemplosubtitulo" />
+		
+		<TextView 
+		    android:id="@+id/muestrainfo" 
+		    style="@style/Informacion" 	
+			android:text="@string/ejemploinfo" />
+		
+	 	<TextView 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/btnBorrar"
+                android:layout_width="115dp"
+                android:layout_height="115dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/basurero" />
+
+            <ImageView
+                android:id="@+id/btnSalvar"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/salvar" />
+
+
+
+        </LinearLayout>
+
+	</LinearLayout>
+	
+</ScrollView>

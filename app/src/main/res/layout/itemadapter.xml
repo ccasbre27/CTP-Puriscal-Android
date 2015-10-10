@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:background="@drawable/borderedondo"
+    android:padding="10dp">
+    
+    <ImageView
+        android:id="@+id/imgCarrera"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_margin="10dp"
+        android:src="@android:drawable/ic_dialog_info" />
+ 
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imgCarrera"
+        android:text="" 
+        android:typeface="monospace"
+		android:textStyle="bold"
+		android:textColor="@color/white"
+        android:textSize="17dp" />
+ 
+    <TextView
+        android:id="@+id/tvSubtitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgCarrera"
+        android:layout_toRightOf="@+id/imgCarrera"
+        android:layout_below="@+id/tvTitulo"
+        android:text="" 
+        android:typeface="monospace"
+		android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@color/crema"
+    android:padding="@dimen/distancia">
+	
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center_vertical">
+		
+		<TextView
+			android:id="@+id/titulodireccion"
+			style="@style/Titulo"
+			android:text="@string/direccion"
+			android:layout_gravity="center_horizontal" />
+		
+		<TextView
+			android:id="@+id/infodireccion"
+			style="@style/Informacion"
+			android:text="@string/infodireccion"
+			android:layout_gravity="center_horizontal" />
+		
+		<ImageButton
+			android:id="@+id/btnMapa"
+			android:layout_width="100dp"
+			android:layout_height="100dp"
+			android:layout_gravity="center_horizontal" 
+			android:background="@drawable/icomapa"/>
+
+        <TextView
+            style="@style/Informacion"
+            android:text="@string/infoMapa"
+            android:textSize="12dp"
+            android:layout_gravity="center_horizontal" />
+
+
+		
+	</LinearLayout>
+	
+</ScrollView>

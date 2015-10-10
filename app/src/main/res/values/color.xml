@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFF</color>
+    <color name="violeta">#8E79D9</color>
+    <color name="purple">#562155</color>
+    <color name="crema">#FFF6DB</color>
+    <color name="orange">#ffff682f</color>
+    <color name="verde">#ff86be22</color>
+    <color name="cremaclaro">#ffffebb3</color>
+    <color name="turquesaoscuro">#3FB094</color>
+    <color name="verdeclaro">#BCCF9F</color>
+
+</resources>

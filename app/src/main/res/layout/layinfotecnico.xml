@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbarThumbVertical="@drawable/scrollbarvertical"
+    android:background="@color/crema"
+    android:padding="@dimen/distancia"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="158dp"
+            android:layout_height="137dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/titulo1"
+            style="@style/Titulo"
+            android:text="@string/introduccion"
+            android:layout_below="@+id/img" />
+
+        <TextView
+            android:id="@+id/infotitulo1"
+            style="@style/Informacion"
+            android:layout_below="@+id/titulo1" />
+
+        <TextView
+            android:id="@+id/titulo2"
+            style="@style/Titulo"
+            android:text="@string/cualidades"
+            android:layout_below="@+id/infotitulo1" />
+
+        <TextView
+            android:id="@+id/infotitulo2"
+            style="@style/Informacion"
+            android:layout_below="@+id/titulo2" />
+
+        <TextView
+            android:id="@+id/titulo3"
+            style="@style/Titulo"
+            android:text="@string/graduado"
+            android:layout_below="@+id/infotitulo2" />
+
+        <TextView
+            android:id="@+id/infotitulo3"
+            style="@style/Informacion"
+            android:layout_below="@+id/titulo3" />
+
+        <TextView
+            android:id="@+id/titulo4"
+            style="@style/Titulo"
+            android:text="@string/laborar"
+            android:layout_below="@+id/infotitulo3" />
+
+        <TextView
+            android:id="@+id/infotitulo4"
+            style="@style/Informacion"
+            android:layout_below="@+id/titulo4"/>
+
+        <TextView
+            android:id="@+id/titulo5"
+            style="@style/Titulo"
+            android:text="@string/plan"
+            android:layout_below="@+id/infotitulo4"/>
+
+        <TextView
+            android:id="@+id/infotituloDecimo"
+            style="@style/Subtitulo"
+            android:text="@string/primeranio"
+            android:layout_below="@+id/titulo5" />
+
+        <TextView
+            android:id="@+id/MateriasDecimo"
+            style="@style/Informacion"
+            android:layout_below="@+id/infotituloDecimo" />
+
+        <TextView
+            android:id="@+id/infotituloUndecimo"
+            style="@style/Subtitulo"
+            android:text="@string/segundoanio"
+            android:layout_below="@+id/MateriasDecimo" />
+
+        <TextView
+            android:id="@+id/MateriasUndecimo"
+            style="@style/Informacion"
+            android:layout_below="@+id/infotituloUndecimo" />
+
+        <TextView
+            android:id="@+id/infotituloDuodecimo"
+            style="@style/Subtitulo"
+            android:text="@string/terceranio"
+            android:layout_below="@+id/MateriasUndecimo" />
+
+        <TextView
+            android:id="@+id/MateriasDuodecimo"
+            style="@style/Informacion"
+            android:layout_below="@+id/infotituloDuodecimo"/>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nansoft.ctppnocturno"
+    android:versionCode="4"
+    android:versionName="4.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppBaseTheme" >
+        <activity
+            android:name=".activity.BienvenidaActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.ConfiguracionesActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activity.OpcionesActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activity.ContactoActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activity.DireccionActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activity.RequisitosActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activity.TecnicosActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activity.InfoTecnicoActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.BenefitsActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activity.HorarioActivity"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>

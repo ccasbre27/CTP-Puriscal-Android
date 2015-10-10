@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/widget32"
+	android:layout_width="fill_parent"
+	android:layout_height="?android:attr/listPreferredItemHeight"
+	android:background="@drawable/borderedondo"
+	android:focusable="false"
+	>
+	
+	<TextView
+		android:id="@+id/tituopcion"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="TextView"
+		android:textSize="23dp"
+		android:typeface="monospace"
+		android:textStyle="bold"
+		android:textColor="@color/white"
+		android:layout_centerInParent="true"
+		android:layout_below="@+id/widget34"
+		android:layout_alignLeft="@+id/widget34" />
+	
+	<TextView
+		android:id="@+id/widget34"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="TextView"
+		android:textSize="23dp"
+		android:typeface="monospace"
+		android:textStyle="bold"
+		android:textColor="#ffff682f"
+		android:layout_alignBaseline="@+id/imagenopciones"
+		android:layout_toRightOf="@+id/imagenopciones" />
+	
+	<ImageView
+		android:id="@+id/imagenopciones"
+		android:layout_width="70dp"
+		android:layout_height="70dp"
+		android:gravity="center"
+        android:layout_margin="10dp" />
+	
+</RelativeLayout>
